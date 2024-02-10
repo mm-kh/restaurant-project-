@@ -1,6 +1,5 @@
 import mysql.connector
 mydb = mysql.connector.connect(user='root', password='1234',host='127.0.0.1',database='restaurant')
-
 import os
 from prettytable import PrettyTable
 
@@ -1317,6 +1316,5 @@ def Show():
         except :
             print("You should have entered a valid number...")
     Choice(key)
- 
 
 Show()        
